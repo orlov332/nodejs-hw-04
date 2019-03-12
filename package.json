@@ -12,7 +12,8 @@
         "start": "babel-node ./src/utils/streams.js",
         "plain-text-server": "babel-node ./http-servers/plain-text-server.js",
         "html-server": "babel-node ./http-servers/html-server.js",
-        "json-server": "babel-node ./http-servers/json-server.js"
+        "json-server": "babel-node ./http-servers/json-server.js",
+        "echo-server": "babel-node ./http-servers/echo-server.js"
     },
     "author": "Valeriy Orlov <valeriy_orlov@epam.com>",
     "license": "MIT",
