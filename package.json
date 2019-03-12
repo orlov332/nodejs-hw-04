@@ -1,0 +1,25 @@
+{
+    "name": "nodejs-hw-03",
+    "version": "1.0.0",
+    "description": "Epam Mentoring Program homework",
+    "main": "app.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/orlov332/nodejs-hw-04.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "babel-node ./src/utils/streams.js"
+    },
+    "author": "Valeriy Orlov <valeriy_orlov@epam.com>",
+    "license": "MIT",
+    "devDependencies": {
+        "@babel/core": "latest",
+        "@babel/node": "latest",
+        "@babel/preset-env": "latest",
+        "@babel/preset-stage-2": "latest",
+        "eslint": "latest"
+    },
+    "dependencies": {
+    }
+}
